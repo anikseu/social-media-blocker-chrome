@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Social Media Blocker",
+  "version": "1.0",
+  "permissions": ["activeTab", "tabs", "storage", "alarms"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.facebook.com/*",
+        "*://*.instagram.com/*",
+        "*://*.twitter.com/*",
+        "*://*.youtube.com/*"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "./popup.html"
+  }
+}
