@@ -11,7 +11,7 @@
       "matches": [
         "*://*.facebook.com/*",
         "*://*.instagram.com/*",
-        "*://*.twitter.com/*",
+        "*://*.x.com/*",
         "*://*.youtube.com/*"
       ],
       "js": ["content.js"]
