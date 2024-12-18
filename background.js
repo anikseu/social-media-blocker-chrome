@@ -49,7 +49,7 @@ function checkAndFireTabAlarm(tabId) {
           if (
             (settings.facebook && domain.includes("facebook.com")) ||
             (settings.instagram && domain.includes("instagram.com")) ||
-            (settings.twitter && domain.includes("twitter.com")) ||
+            (settings.twitter && domain.includes("x.com")) ||
             (settings.youtube && domain.includes("youtube.com"))
           ) {
             // Mark this tab as "reminder fired"
@@ -81,7 +81,7 @@ function handlePeriodicReminders() {
         if (
           (settings.facebook && domain.includes("facebook.com")) ||
           (settings.instagram && domain.includes("instagram.com")) ||
-          (settings.twitter && domain.includes("twitter.com")) ||
+          (settings.twitter && domain.includes("x.com")) ||
           (settings.youtube && domain.includes("youtube.com"))
         ) {
           // Send a reminder only if not already fired for this tab
@@ -103,7 +103,7 @@ function handlePeriodicReminders() {
 function getSiteName(domain, settings) {
   if (settings.facebook && domain.includes("facebook.com")) return "Facebook";
   if (settings.instagram && domain.includes("instagram.com")) return "Instagram";
-  if (settings.twitter && domain.includes("twitter.com")) return "Twitter";
+  if (settings.twitter && domain.includes("x.com")) return "Twitter";
   if (settings.youtube && domain.includes("youtube.com")) return "YouTube";
   return "this site";
 }
