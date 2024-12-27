@@ -1,5 +1,8 @@
 # **Social Media Blocker Chrome Extension**
 
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/bddeojppammpnkihedfnlhkgokgpmlcb)](https://chromewebstore.google.com/detail/social-media-blocker/bddeojppammpnkihedfnlhkgokgpmlcb)
+
+
 A lightweight Chrome extension designed to help users manage their time on social media platforms. The extension simply blocks the social media sites from your browser with a black screen. You can manage which sites to block from the settings. 
 
 ![Screenshot](./screenshots/Screenshot%202024-12-02%20at%202.59.34 AM.png)
